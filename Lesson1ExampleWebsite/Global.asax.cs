@@ -12,6 +12,7 @@ namespace Lesson1ExampleWebsite
     {
         protected void Application_Start()
         {
+             //Making a change.
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
